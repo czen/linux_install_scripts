@@ -58,6 +58,26 @@ add-apt-repository \
 apt-get update
 apt-get install -y docker-ce
 
-# TODO: mono, docker?
+# skype
+apt install -y apt-transport-https
+curl https://repo.skype.com/data/SKYPE-GPG-KEY | sudo apt-key add -
+echo "deb https://repo.skype.com/deb stable main" | sudo tee /etc/apt/sources.list.d/skypeforlinux.list
+apt update
+apt install -y skypeforlinux
+
+#mpich
+apt-get install -y mpich
+
+#openvpn
+apt-get instal -y openvpn
+
+#nvm
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+# nvm install 10.10
+# nvm use 10.10
+
+
+# TODO: mono, apache, php, etc.?
+# TODO: python, virtualenv, vagrant?
 
 
