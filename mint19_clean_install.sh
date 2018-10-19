@@ -60,8 +60,8 @@ apt-get install -y docker-ce
 
 # skype
 apt install -y apt-transport-https
-curl https://repo.skype.com/data/SKYPE-GPG-KEY | sudo apt-key add -
-echo "deb https://repo.skype.com/deb stable main" | sudo tee /etc/apt/sources.list.d/skypeforlinux.list
+curl https://repo.skype.com/data/SKYPE-GPG-KEY | apt-key add -
+echo "deb https://repo.skype.com/deb stable main" | tee /etc/apt/sources.list.d/skypeforlinux.list
 apt update
 apt install -y skypeforlinux
 
@@ -76,8 +76,20 @@ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh |
 # nvm install 10.10
 # nvm use 10.10
 
+# already have mono in default Mint 19 distro
+apt install -y mono-xbuild
 
-# TODO: mono, apache, php, etc.?
+# DBeaver
+apt-get install -y gdebi
+wget https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
+gdebi -y dbeaver_3.0.1_amd64.deb
+
+# Docker compose
+# https://docs.docker.com/compose/install/#install-compose
+curl -L "https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+
+# TODO: apache, php, etc.?
 # TODO: python, virtualenv, vagrant?
 
 
