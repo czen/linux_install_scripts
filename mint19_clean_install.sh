@@ -56,7 +56,8 @@ add-apt-repository \
    stable"
 
 apt-get update
-apt-get install -y docker-ce
+#apt-get install -y docker-ce
+# TODO: install docker properly
 
 # skype
 apt install -y apt-transport-https
@@ -82,7 +83,9 @@ apt install -y mono-xbuild
 # DBeaver
 apt-get install -y gdebi
 wget https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb
-gdebi -y dbeaver_3.0.1_amd64.deb
+# gdebi -y dbeaver_3.0.1_amd64.deb
+# gdebi: error: no such option: -y
+gdebi dbeaver_3.0.1_amd64.deb
 
 # Docker compose
 # https://docs.docker.com/compose/install/#install-compose
