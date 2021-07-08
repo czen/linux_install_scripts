@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install -y freecad librecad solvespace 
+sudo apt-get install -y freecad librecad solvespace openscad
 wget https://qcad.org/archives/qcad/qcad-3.26.4-trial-linux-x86_64.run
 chmod a+x qcad-3.26.4-trial-linux-x86_64.run
 ./qcad-3.26.4-trial-linux-x86_64.run
