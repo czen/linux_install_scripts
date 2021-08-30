@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install -y graphviz filezilla keepassx flameshot
+sudo apt-get install -y graphviz filezilla keepassx flameshot copyq
