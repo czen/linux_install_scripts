@@ -5,4 +5,4 @@ sudo cp /etc/network/interfaces /etc/network/interfaces.bakup-1
 # sudo vi /etc/network/interfaces
 #sudo systemctl restart networking
 #sudo brctl show
-sudo apt-get install virt-manager
+sudo apt-get install -y virt-manager
