@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo apt-get install -y audacity lmms ardour cecilia rosegarden
+sudo apt-get install -y audacity ardour lmms ardour cecilia rosegarden
