@@ -13,5 +13,5 @@ sudo apt-get install -y bats cde coop-computing-tools coop-computing-tools-dev c
 sudo apt-get install -y cde #impressive
 #sudo apt-get install -y htcondor htcondor-dev
 sudo apt-get install -y copyq copyq-plugins freeipmi gcalcli
-sudo apt-get install -y stacer timeshift bacula
+sudo apt-get install -y stacer timeshift bacula clonezilla
 sudo apt-get install -y eclipse
