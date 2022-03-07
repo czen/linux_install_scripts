@@ -25,3 +25,5 @@ cd RepetierHost
 sh configureFirst.sh
 cd ..
 cp -R RepetierHost/ /opt/
+wget https://mattercontrol.appspot.com/downloads/mattercontrol-linux/release
+# wget https://mattercontrol.appspot.com/downloads/mattercontrol-linux/release
