@@ -6,3 +6,4 @@
 #sudo ./install-tl
 sudo apt-get install -y texlive-full
 sudo apt-get install -y texmaker kile
+flatpak install -y flathub com.github.rogercrocker.badabib

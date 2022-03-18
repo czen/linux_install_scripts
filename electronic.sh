@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install -y kicad fritzing ngspice oregano
+sudo apt-get install -y kicad fritzing ngspice oregano horizon-eda
 # SPICE
 # https://ptolemy.berkeley.edu/projects/embedded/pubs/downloads/spice/index.htm
 # https://ptolemy.berkeley.edu/projects/embedded/pubs/downloads/magic/index.htm

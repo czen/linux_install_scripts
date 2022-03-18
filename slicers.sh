@@ -27,3 +27,6 @@ cd ..
 cp -R RepetierHost/ /opt/
 wget https://mattercontrol.appspot.com/downloads/mattercontrol-linux/release
 # wget https://mattercontrol.appspot.com/downloads/mattercontrol-linux/release
+#flatpak install -y flathub com.flashforge.FlashPrint
+wget https://en.fss.flashforge.com/10000/software/7f8b3d7b5185be8d8d25bacb45995eda.deb
+sudo apt-get install -y ./7f8b3d7b5185be8d8d25bacb45995eda.deb

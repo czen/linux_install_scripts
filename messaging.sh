@@ -10,3 +10,5 @@ tar -xf tsetup.3.5.2.tar.xz
 sudo cp -R Telegram /opt/Telegram
 
 sudo apt-get install -y jami wire
+#flatpak install -y flathub org.telegram.desktop
+sudo apt-get install telegram-desktop
