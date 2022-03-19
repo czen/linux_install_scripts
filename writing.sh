@@ -8,8 +8,10 @@ sudo apt-get install -y ./espanso-debian-amd64.debecho 'deb http://download.open
 #curl -fsSL https://download.opensuse.org/repositories/home:AndnoVember:KITScenarist/xUbuntu_20.04/Release.key | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/home_AndnoVember_KITScenarist.gpg > /dev/null
 #sudo apt update
 #sudo apt install kitscenarist
+# TODO: fix
 wget https://download.opensuse.org/repositories/home:/AndnoVember:/KITScenarist/xUbuntu_20.04/amd64/kitscenarist_0.7.2.rc15.0+git.70ebff68-0_amd64.deb
 sudo apt-get install -y ./kitscenarist_0.7.2.rc15.0+git.70ebff68-0_amd64.deb
+sudo rm -rf /etc/apt/sources.list.d/home\:AndnoVember\:KITScenarist.list
 sudo apt-get install -y scribus asciidoc
 # languagetool
 curl -L https://raw.githubusercontent.com/languagetool-org/languagetool/master/install.sh | sudo bash -a

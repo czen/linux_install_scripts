@@ -4,4 +4,4 @@ sudo apt-get install -y obs-studio obs-plugins
 #photivo
 #lightzone
 flatpak install -y flathub org.gabmus.hydrapaper
-sudo apt-get install gnome-color-manager
+sudo apt-get install -y gnome-color-manager
