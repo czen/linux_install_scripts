@@ -12,3 +12,5 @@ sudo apt update && sudo apt install -y signal-desktop
 sudo apt-get install -y jami wire
 #flatpak install -y flathub org.telegram.desktop
 sudo apt-get install -y telegram-desktop
+wget https://github.com/meetfranz/franz/releases/download/v5.8.0/franz_5.8.0_amd64.deb
+sudo apt-get install -y ./franz_5.8.0_amd64.deb

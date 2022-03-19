@@ -14,3 +14,7 @@ flatpak install -y flathub com.getpostman.Postman
 wget https://github.com/VSCodium/vscodium/releases/download/1.65.2/codium_1.65.2-1646957649_amd64.deb
 sudo apt-get install -y ./codium_1.65.2-1646957649_amd64.deb
 flatpak install -y flathub io.github.Figma_Linux.figma_linux
+#sudo add-apt-repository ppa:morphis/anbox-support
+#sudo apt-get update
+#sudo apt install anbox-modules-dkms
+#snap install --devmode -- beta anbox

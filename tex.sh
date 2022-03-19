@@ -5,5 +5,5 @@
 #cd install-tl-$today
 #sudo ./install-tl
 sudo apt-get install -y texlive-full
-sudo apt-get install -y texmaker kile
+sudo apt-get install -y texmaker kile kbibtex
 flatpak install -y flathub com.github.rogercrocker.badabib
